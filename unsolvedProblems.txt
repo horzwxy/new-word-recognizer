@@ -1,0 +1,6 @@
+UNSOLVED PROBLEM:
+[1]	should only mark the purified word;
+[2]	should split the combination of two words;
+[3] Unicode letter category?
+[6] -ing style: for plan & plane, cannot add an 'e' but now i do
+[11] servlet
