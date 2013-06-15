@@ -14,10 +14,11 @@ public class Test {
 	
 	public static void main( String[] args ) {
 		articleTest1();
+		//buildLib();
 	}
 	
 	private static void articleTest1() {
-		WordLibrary lib = new WordLibrary( WordLibrary.InitializationType.PLAIN_TEXT, "wordList.txt" );
+		WordLibrary lib = new WordLibrary( "wordList.xml" );
 		Recognizer reg = new Recognizer();
 		reg.setWordLibrary( lib );
 		
@@ -128,5 +129,12 @@ public class Test {
 		}
 		
 		return result;
+	}
+
+	/**
+	 * build the xml lib
+	 */
+	private static void buildLib() {
+		me.horzwxy.wordservant.tools.XMLWordLibBuilder.buildXMLLib();
 	}
 }
