@@ -1,0 +1,14 @@
+<words>
+	<word>
+		<english>american</english>
+		<type>spot name</type>
+		<sentences>
+			<sentence>Barack Obama is American.</sentence>
+		</sentences>
+		<in_time>2012-01-01</in_time>
+		<last_time>2013-01-05</last_time>
+		<total_times>101</total_times>
+		<peak_times>20</peak_times>
+		<article_frequency>25</article_frequence>
+	</word>
+</words>
